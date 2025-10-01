@@ -1,8 +1,8 @@
 51Degrees has a diverse team of engineers with deep skills in each language and platform allowing us to improve code bases and introduce modern best practices.
 
-We have [fully automated tests](https://github.com/51degrees/common-ci/blob/main/DASHBOARD.md) that run nightly across C/C++, .NET, Java, NGINX, Python, PHP, Node.js, and Go. We also [test platforms]( https://51degrees.com/documentation/_info__tested_versions.html) (Windows, Mac, Linux), covering all recent versions of the operating system and language runtimes.
+We have [fully automated tests](https://github.com/51degrees/common-ci/blob/main/DASHBOARD.md) that run nightly across C/C++, .NET, Java, NGINX, Python, PHP, Node.js, and Go. We also [test platforms]( https://51degrees.com/documentation/4.5_product_summaries__tested_versions.html) (Windows, Mac, Linux), covering all recent versions of the operating system and language runtimes.
 
-See our [performance benchmarks]( https://51degrees.com/documentation/_benchmarks__device_detection.html) for each language.
+See our [performance benchmarks]( https://51degrees.com/documentation/4.5/_product_summaries__benchmarks.html) for each language.
 
 Get started with 51Degrees by following the examples:
 - [C/C++]( https://github.com/51Degrees/device-detection-cxx/tree/main/examples)
