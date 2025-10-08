@@ -11,7 +11,7 @@ Get started with 51Degrees Device Detection by following the examples:
 - [NGINX](https://github.com/51Degrees/device-detection-nginx/tree/main/examples)
 - [Python](https://github.com/51Degrees/device-detection-python/tree/main/fiftyone_devicedetection_examples)
 - [PHP (Cloud)](https://github.com/51Degrees/device-detection-php/tree/main/examples/cloud)
-- [PHP (On-Premise)](https://github.com/51Degrees/device-detection-php-onpremise/tree/main/examples/onpremise)
+- [PHP (On-premise)](https://github.com/51Degrees/device-detection-php-onpremise/tree/main/examples/onpremise)
 - [Node.js (Cloud)](https://github.com/51Degrees/device-detection-node/tree/main/fiftyone.devicedetection.cloud/examples/cloud)
 - [Node.js (On-premise)](https://github.com/51Degrees/device-detection-node/tree/main/fiftyone.devicedetection.onpremise/examples/onpremise)
 - [Go](https://github.com/51Degrees/device-detection-examples-go)
@@ -21,6 +21,6 @@ Get started with 51Degrees IP Intelligence by following the examples:
 - [.NET](https://github.com/51Degrees/ip-intelligence-dotnet-examples)
 - [Java](https://github.com/51Degrees/ip-intelligence-java-examples)
 - [Go](https://github.com/51Degrees/ip-intelligence-go-examples)
-- [Ask use](https://51degrees.com/contact-us) about other languages.
+- [Ask us](https://51degrees.com/contact-us) about other languages.
    
 See our [contributing guidelines](https://github.com/51Degrees/common-ci/blob/main/CONTRIBUTING.md) when submitting any PRs to these repositories.
