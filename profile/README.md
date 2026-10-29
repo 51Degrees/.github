@@ -5,7 +5,7 @@ We have [fully automated tests](https://github.com/51degrees/common-ci/blob/main
 See our [performance benchmarks]( https://51degrees.com/documentation/4.5/_product_summaries__benchmarks.html) for each language.
 
 Get started with 51Degrees Device Detection by following the examples:
-- [C/C++](https://github.com/51Degrees/device-detection-cxx/tree/main/examples)
+- [C/C++](https://github.com/51Degrees/51degrees-cxx/tree/main/examples/dd)
 - [.NET](https://github.com/51Degrees/device-detection-dotnet-examples)
 - [Java](https://github.com/51Degrees/device-detection-java-examples)
 - [NGINX](https://github.com/51Degrees/device-detection-nginx/tree/main/examples)
@@ -17,7 +17,7 @@ Get started with 51Degrees Device Detection by following the examples:
 - [Go](https://github.com/51Degrees/device-detection-examples-go)
 
 Get started with 51Degrees IP Intelligence by following the examples:
-- [C/C++](https://github.com/51Degrees/ip-intelligence-cxx/tree/main/examples)
+- [C/C++](https://github.com/51Degrees/51degrees-cxx/tree/main/examples/ipi)
 - [.NET](https://github.com/51Degrees/ip-intelligence-dotnet-examples)
 - [Java](https://github.com/51Degrees/ip-intelligence-java-examples)
 - [Go](https://github.com/51Degrees/ip-intelligence-go-examples)
