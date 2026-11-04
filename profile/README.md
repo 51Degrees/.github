@@ -9,6 +9,8 @@ Get started with 51Degrees Device Detection by following the examples:
 - [.NET](https://github.com/51Degrees/51degrees-dotnet/tree/main/examples/device-detection)
 - [Java](https://github.com/51Degrees/51degrees-java/tree/main/examples/device-detection)
 - [NGINX](https://github.com/51Degrees/51degrees-nginx/tree/main/examples)
+- [Python (Cloud)](https://github.com/51Degrees/51degrees-python/tree/main/device-detection/fiftyone_devicedetection_examples/src/fiftyone_devicedetection_examples/cloud)
+- [Python (On-premise)](https://github.com/51Degrees/51degrees-python/tree/main/device-detection/fiftyone_devicedetection_examples/src/fiftyone_devicedetection_examples/onpremise)
 - [PHP (Cloud)](https://github.com/51Degrees/51degrees-php/tree/main/device-detection/cloud/examples/cloud)
 - [PHP (On-premise)](https://github.com/51Degrees/51degrees-php/tree/main/device-detection/onpremise/examples/onpremise)
 - [Node.js (Cloud)](https://github.com/51Degrees/51degrees-node/tree/main/device-detection/fiftyone.devicedetection.cloud/examples/cloud)
@@ -19,6 +21,7 @@ Get started with 51Degrees IP Intelligence by following the examples:
 - [C/C++](https://github.com/51Degrees/51degrees-cxx/tree/main/examples/ipi)
 - [.NET](https://github.com/51Degrees/51degrees-dotnet/tree/main/examples/ip-intelligence)
 - [Java](https://github.com/51Degrees/51degrees-java/tree/main/examples/ip-intelligence)
+- [Python](https://github.com/51Degrees/51degrees-python/tree/main/ip-intelligence/fiftyone_ipintelligence_examples/src/fiftyone_ipintelligence_examples)
 - [Go](https://github.com/51Degrees/51degrees-go/tree/main/examples/ip-intelligence)
 - [Ask us](https://51degrees.com/contact-us) about other languages.
    
