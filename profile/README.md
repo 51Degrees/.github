@@ -12,12 +12,12 @@ Device Detection identifies devices, operating systems, browsers, and crawlers f
 | .NET and C# | [51degrees-dotnet](https://github.com/51Degrees/51degrees-dotnet) | [Device Detection](https://github.com/51Degrees/51degrees-dotnet/tree/main/examples/device-detection), [IP Intelligence](https://github.com/51Degrees/51degrees-dotnet/tree/main/examples/ip-intelligence) |
 | Go | [51degrees-go](https://github.com/51Degrees/51degrees-go) | [Device Detection](https://github.com/51Degrees/51degrees-go/tree/main/examples/device-detection), [IP Intelligence](https://github.com/51Degrees/51degrees-go/tree/main/examples/ip-intelligence) |
 | Java | [51degrees-java](https://github.com/51Degrees/51degrees-java) | [Device Detection](https://github.com/51Degrees/51degrees-java/tree/main/examples/device-detection), [IP Intelligence](https://github.com/51Degrees/51degrees-java/tree/main/examples/ip-intelligence) |
-| NGINX | [51degrees-nginx](https://github.com/51Degrees/51degrees-nginx) | [Examples](https://github.com/51Degrees/51degrees-nginx/tree/main/examples) |
-| Node.js | [51degrees-node](https://github.com/51Degrees/51degrees-node) | [Cloud](https://github.com/51Degrees/51degrees-node/tree/main/device-detection/fiftyone.devicedetection.cloud/examples/cloud), [On-premise](https://github.com/51Degrees/51degrees-node/tree/main/device-detection/fiftyone.devicedetection.onpremise/examples/onpremise) |
-| PHP | [51degrees-php](https://github.com/51Degrees/51degrees-php) | [Cloud](https://github.com/51Degrees/51degrees-php/tree/main/device-detection/cloud/examples/cloud), [On-premise](https://github.com/51Degrees/51degrees-php/tree/main/device-detection/onpremise/examples/onpremise) |
+| NGINX | [51degrees-nginx](https://github.com/51Degrees/51degrees-nginx) | [Device Detection](https://github.com/51Degrees/51degrees-nginx/tree/main/examples/hash), [IP Intelligence](https://github.com/51Degrees/51degrees-nginx/tree/main/examples/ipi) |
+| Node.js | [51degrees-node](https://github.com/51Degrees/51degrees-node) | Device Detection [cloud](https://github.com/51Degrees/51degrees-node/tree/main/device-detection/fiftyone.devicedetection.cloud/examples/cloud) and [on-premise](https://github.com/51Degrees/51degrees-node/tree/main/device-detection/fiftyone.devicedetection.onpremise/examples/onpremise), IP Intelligence [cloud](https://github.com/51Degrees/51degrees-node/tree/main/ip-intelligence/fiftyone.ipintelligence.cloud/examples/cloud) and [on-premise](https://github.com/51Degrees/51degrees-node/tree/main/ip-intelligence/fiftyone.ipintelligence.onpremise/examples/onpremise) |
+| PHP | [51degrees-php](https://github.com/51Degrees/51degrees-php) | Device Detection [cloud](https://github.com/51Degrees/51degrees-php/tree/main/device-detection/cloud/examples/cloud) and [on-premise](https://github.com/51Degrees/51degrees-php/tree/main/device-detection/onpremise/examples/onpremise), IP Intelligence [cloud](https://github.com/51Degrees/51degrees-php/tree/main/ip-intelligence/examples/cloud) and [on-premise](https://github.com/51Degrees/51degrees-php/tree/main/ip-intelligence/examples/onpremise) |
 | Python | [51degrees-python](https://github.com/51Degrees/51degrees-python) | [Device Detection](https://github.com/51Degrees/51degrees-python/tree/main/device-detection/fiftyone_devicedetection_examples), [IP Intelligence](https://github.com/51Degrees/51degrees-python/tree/main/ip-intelligence/fiftyone_ipintelligence_examples) |
-| Rust | [51degrees-rust](https://github.com/51Degrees/51degrees-rust) | See the repository README |
-| Varnish | [51degrees-varnish](https://github.com/51Degrees/51degrees-varnish) | See the repository README |
+| Rust | [51degrees-rust](https://github.com/51Degrees/51degrees-rust) | [Device Detection](https://github.com/51Degrees/51degrees-rust/tree/main/examples/device-detection-examples), [IP Intelligence](https://github.com/51Degrees/51degrees-rust/tree/main/examples/ip-intelligence-examples) |
+| Varnish | [51degrees-varnish](https://github.com/51Degrees/51degrees-varnish) | [Device Detection](https://github.com/51Degrees/51degrees-varnish/tree/main/examples/hash), [IP Intelligence](https://github.com/51Degrees/51degrees-varnish/tree/main/examples/ipi) |
 | WordPress | [pipeline-wordpress](https://github.com/51Degrees/pipeline-wordpress) | See the repository README |
 | JavaScript and TypeScript | [ua-parser-js](https://github.com/51Degrees/ua-parser-js) | See the repository README |
 
@@ -25,7 +25,7 @@ Device Detection identifies devices, operating systems, browsers, and crawlers f
 
 Try the [User-Agent tester](https://51degrees.com/developers/user-agent-tester?utm_source=github&utm_medium=readme&utm_campaign=.github&utm_content=profile-readme&utm_term=try-it) and [IP tester](https://51degrees.com/developers/ip-tester?utm_source=github&utm_medium=readme&utm_campaign=.github&utm_content=profile-readme&utm_term=try-it). For cloud use, [create a Resource Key](https://configure.51degrees.com/?utm_source=github&utm_medium=readme&utm_campaign=.github&utm_content=profile-readme&utm_term=try-it).
 
-Some cloud properties are free. Others need a paid plan. On-premise engines read a data file on your server. The free Lite files carry a small set of properties.
+Some cloud properties are free. Others need a paid plan. On-premise engines read a data file on your server. The free Lite files in the [data repository](https://github.com/51Degrees/data) carry a small set of properties. [Contact us](https://51degrees.com/contact-us?utm_source=github&utm_medium=readme&utm_campaign=.github&utm_content=profile-readme&utm_term=enterprise-data-file) about the Enterprise data files, which carry every property.
 
 ## Documentation and testing
 
@@ -35,7 +35,7 @@ Some cloud properties are free. Others need a paid plan. On-premise engines read
 - [Automated test dashboard](https://github.com/51Degrees/common-ci/blob/main/DASHBOARD.md)
 - [Contributing guidelines](https://github.com/51Degrees/common-ci/blob/main/CONTRIBUTING.md)
 
-Our automated tests run nightly across C/C++, .NET, Java, NGINX, Python, PHP, Node.js, and Go. We test Windows, Mac, and Linux across recent operating system and language runtime versions. Our engineers work across these languages and platforms to improve the code and development practices.
+Our automated tests run nightly across C/C++, .NET, Java, NGINX, Varnish, Python, PHP, Node.js, Go, and Rust. We test Windows, Mac, and Linux across recent operating system and language runtime versions. Our engineers work across these languages and platforms to improve the code and development practices.
 
 ## Find out more
 
