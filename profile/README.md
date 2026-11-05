@@ -4,7 +4,7 @@ We provide Device Detection, User-Agent and User-Agent Client Hints parsing, IP 
 
 Device Detection identifies devices, operating systems, browsers, and crawlers from HTTP request headers, which carry information from a browser to a server. IP Intelligence returns an IP address's likely location, connection type, and network. Human Confidence says how confident we are that a person is viewing a page.
 
-Our identifier is the 51Did, which the cloud signs. It comes in three types, and each is unique either across every caller or only across your License Key.
+Our identifier is the [51Did](https://51degrees.com/documentation/_identifiers_51_did.html?utm_source=github&utm_medium=readme&utm_campaign=.github&utm_content=profile-readme&utm_term=identifiers), which the cloud signs. It comes in three types, and each is unique either across every caller or only across your License Key.
 
 - Probabilistic, the same for the same device on the same network
 - Random, new each time the cloud creates one
