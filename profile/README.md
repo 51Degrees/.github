@@ -31,7 +31,7 @@ The Human Confidence examples are in the guide to [deploying Human Confidence wi
 
 ## Try it
 
-Try the [User-Agent tester](https://51degrees.com/developers/user-agent-tester?utm_source=github&utm_medium=readme&utm_campaign=.github&utm_content=profile-readme&utm_term=try-it) and [IP tester](https://51degrees.com/developers/ip-tester?utm_source=github&utm_medium=readme&utm_campaign=.github&utm_content=profile-readme&utm_term=try-it). For cloud use, [create a Resource Key](https://configure.51degrees.com/?utm_source=github&utm_medium=readme&utm_campaign=.github&utm_content=profile-readme&utm_term=try-it).
+Try the [User-Agent tester](https://51degrees.com/developers/user-agent-tester?utm_source=github&utm_medium=readme&utm_campaign=.github&utm_content=profile-readme&utm_term=try-it) and [IP tester](https://51degrees.com/developers/ip-tester?utm_source=github&utm_medium=readme&utm_campaign=.github&utm_content=profile-readme&utm_term=try-it). For cloud use, [create a Resource Key](https://51degrees.com/configure/?utm_source=github&utm_medium=readme&utm_campaign=.github&utm_content=profile-readme&utm_term=try-it).
 
 Some cloud properties are free. Others need a paid plan. On-premise engines read a data file on your server. The free Lite files in the [data repository](https://github.com/51Degrees/data) carry a small set of properties. [Contact us](https://51degrees.com/contact-us?utm_source=github&utm_medium=readme&utm_campaign=.github&utm_content=profile-readme&utm_term=enterprise-data-file) about the Enterprise data files, which carry every property.
 
